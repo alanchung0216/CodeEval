@@ -1,6 +1,5 @@
 package com.code_eval_easy;
 
-import java.io.Closeable;
 import java.io.File;
 import java.io.IOException;
 

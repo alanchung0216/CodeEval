@@ -33,6 +33,7 @@ public class fibonacci {
 			}
 			System.out.println(f_n);
 		}
+		br.close();
 	}
 }
 
