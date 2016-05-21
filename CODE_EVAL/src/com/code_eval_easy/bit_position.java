@@ -35,6 +35,7 @@ public class bit_position {
 				System.out.println(b);
 				
 			}
+			in.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
