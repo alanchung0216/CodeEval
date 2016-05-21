@@ -31,6 +31,7 @@ public class fizz_buzz {
 						System.out.printf(" ");
 				}
 			}
+			in.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
