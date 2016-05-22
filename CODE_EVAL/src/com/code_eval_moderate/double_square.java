@@ -27,7 +27,7 @@ public class double_square {
 			System.out.println(count);
 			num--;
 		}
-		
+		in.close();
 
 	}
 

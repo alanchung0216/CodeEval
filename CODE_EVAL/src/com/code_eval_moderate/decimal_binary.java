@@ -31,7 +31,7 @@ public class decimal_binary {
 			}
 			
 		}
-
+		in.close();
 	}
 
 }
