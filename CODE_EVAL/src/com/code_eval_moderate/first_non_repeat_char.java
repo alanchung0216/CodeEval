@@ -56,6 +56,7 @@ public class first_non_repeat_char {
 			System.out.println();
 			 */
 		}
+		br.close();
 	}
 
 }

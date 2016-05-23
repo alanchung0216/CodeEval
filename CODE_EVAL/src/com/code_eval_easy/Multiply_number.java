@@ -23,7 +23,8 @@ public class Multiply_number {
 				total += second;
 			}
 			System.out.println(total);
-		}		
+		}
+		br.close();
 	}
 }
 

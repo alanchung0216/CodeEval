@@ -24,6 +24,7 @@ public class sum_digits {
 				}
 				System.out.println(sum);
 			}
+			br.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -86,7 +86,7 @@ public class tree_l_c_a {
 			in.nextLine();
 			System.out.println(find_l_c_a(bst.root,int1,int2));
 		}	
-					
+		in.close();			
 
 	}
 	

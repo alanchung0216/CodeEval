@@ -22,6 +22,7 @@ public class mth_to_last {
 			if ( (str.length-1) < mth)  continue;  
 			System.out.println(str[(str.length-1)-mth]);
 		}
+		br.close();
 	}
 
 }

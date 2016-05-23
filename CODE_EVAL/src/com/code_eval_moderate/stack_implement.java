@@ -40,6 +40,7 @@ public class stack_implement {
 				}
 			}
 		}
+		in.close();
 	}
 
 }

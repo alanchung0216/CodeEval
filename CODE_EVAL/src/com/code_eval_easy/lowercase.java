@@ -25,6 +25,7 @@ public class lowercase {
 					}
 				}
 			}
+			in.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

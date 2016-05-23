@@ -22,6 +22,7 @@ public class number_ones {
 			}
 			System.out.println(count_one);
 		}
+		in.close();
 
 	}
 

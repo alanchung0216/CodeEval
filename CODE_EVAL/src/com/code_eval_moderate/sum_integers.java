@@ -31,6 +31,7 @@ public class sum_integers {
 			}
 			System.out.println(max);
 		}
+		in.close();
 
 	}
 

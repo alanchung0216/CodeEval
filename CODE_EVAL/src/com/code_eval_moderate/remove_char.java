@@ -44,6 +44,7 @@ public class remove_char {
 				}
 				
 			}
+			in.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

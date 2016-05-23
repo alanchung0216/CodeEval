@@ -37,6 +37,7 @@ public class longest_lines {
 		for (int j=0; j<num; j++){
 			System.out.println(ll.get(j));
 		}
+		br.close();
 	}
 
 }

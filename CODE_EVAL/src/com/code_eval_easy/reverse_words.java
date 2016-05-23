@@ -30,6 +30,7 @@ public class reverse_words {
 					else System.out.printf("%s ",str[i]);
 				}
 			}
+			sc.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

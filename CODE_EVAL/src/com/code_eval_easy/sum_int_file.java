@@ -14,6 +14,7 @@ public class sum_int_file {
 		while (in.hasNext()) {
 			sum += in.nextInt();		
 		}
+		in.close();
 		System.out.println(sum);
 	}
 

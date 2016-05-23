@@ -1,10 +1,7 @@
 package com.code_eval_moderate;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.Scanner;
 
 // 5/11/16
@@ -54,6 +51,7 @@ public class reverse_add {
 				}
 				System.out.println(count+" "+sum);
 			}
+			in.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -29,6 +29,7 @@ public class unique_element {
   			}
 			System.out.println(pre);
 		}
+		br.close();
 	}
 
 }
