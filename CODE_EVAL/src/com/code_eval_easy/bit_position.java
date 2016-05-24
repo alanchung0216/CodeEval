@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 // 5/10/16
-
+//
 public class bit_position {
 	public static void main(String[] args){
 		File file = new File(args[0]);
