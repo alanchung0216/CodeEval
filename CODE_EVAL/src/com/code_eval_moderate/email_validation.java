@@ -20,8 +20,8 @@ public class email_validation {
 		// \w+ means one or more word characters
 		// (\.\w+)+ means ("." followed by one or more word characters) grouped one or more
 		// \\ is used for \ as required by java compiler.
-		//String regex = "^\\w+@\\w+(\\.\\w+)+$";
-		//String EMAIL_PATTERN = "^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@" + "[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$";
+		//String regex = "^\\w+@\\w+(\\.\\w+)+$"; // 80% correct
+		// below 85% correct
 		String regex = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)+$";
 		Pattern pat = Pattern.compile(regex);
 		while ((line = br.readLine()) != null){
