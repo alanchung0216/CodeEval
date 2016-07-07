@@ -2,8 +2,11 @@ package com.code_eval_easy;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -16,8 +19,22 @@ public class set_intersection {
 		// TODO Auto-generated method stub
 		File file = new File(args[0]);
 		FileReader fr = new FileReader(file);
+		// we may use InputStreamReader if data is coming from console
+        //InputStreamReader inputReader = new InputStreamReader(System.in,"utf-8");
+		//BufferedReader buffReader = new BufferedReader(inputReader);
 		BufferedReader br = new BufferedReader(fr);
 		String line;
+		String $int;
+		public final static int w();
+		double hyperbolicCosine(){};
+		 byte b = 5;
+		 short s = 55; 
+		b = s;
+		
+		byte b = 2; 
+		byte b1 = 3; 
+		b = b * b1;
+		
 		while ((line=br.readLine()) != null){
 			String[] str = line.trim().split(";");
 			String[] str_1 = str[0].trim().split(",");
