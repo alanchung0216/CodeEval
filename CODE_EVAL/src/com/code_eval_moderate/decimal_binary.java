@@ -6,6 +6,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// change decimal to binary
+/* in
+2
+0
+10
+ 
+4
+67
+ */
+
+/* out
+10
+0
+1010
+100
+1000011
+ */
 public class decimal_binary {
 
 	public static void main(String[] args) throws FileNotFoundException {

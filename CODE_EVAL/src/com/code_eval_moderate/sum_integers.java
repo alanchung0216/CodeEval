@@ -4,6 +4,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+// find max of sum of continuous integers subarray
+/* IN
+-10,2,3,-2,0,5,-15
+2,3,-2,-1,10
+ */
+/* OUT
+8
+12
+ */
 public class sum_integers {
 
 	public static void main(String[] args) throws FileNotFoundException {

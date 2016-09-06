@@ -4,6 +4,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/*
+195 (initial number) + 591 (reverse of initial number) = 786
+
+786 + 687 = 1473
+
+1473 + 3741 = 5214
+
+5214 + 4125 = 9339 (palindrome)
+ */
+
 // 5/11/16
 public class reverse_add {
 	static Integer reverseVal(Integer val){

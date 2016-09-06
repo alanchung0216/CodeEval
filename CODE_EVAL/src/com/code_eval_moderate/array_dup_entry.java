@@ -4,6 +4,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+// find duplicate value in the array
+// perm 3
+//5;0,1,2,3,0
+// perm 18
+//20;0,1,10,3,2,4,5,7,6,8,11,9,15,12,13,4,16,18,17,14
+
 public class array_dup_entry {
 
 	public static void main(String[] args) throws FileNotFoundException {
@@ -20,15 +26,15 @@ public class array_dup_entry {
 			for (int i=0; i < stra.length; i++){
 				inta[i]=Integer.valueOf(stra[i]);
 			}
-			int total_n_2=0;
+			int total_n_1=0;
 			int total_inta=0;
-			for (int i=0; i<= num-2; i++){
-				total_n_2 += i;
+			for (int i=0; i< num-1; i++){
+				total_n_1 += i;
 			}
 			for (int i=0; i< inta.length; i++) {
 				total_inta += inta[i];
 			}
-			System.out.println(total_inta-total_n_2);
+			System.out.println(total_inta-total_n_1);
 		}
 		
 	}

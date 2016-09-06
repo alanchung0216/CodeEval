@@ -4,6 +4,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/* IN
+10
+22
+56
+*/
+/* OUT Print to stdout the number of ones in the binary form of each number.
+2
+3
+3
+ */
 public class number_ones {
 
 	public static void main(String[] args) throws FileNotFoundException {
@@ -18,6 +28,7 @@ public class number_ones {
 				if ((value % 2) == 1) {
 					count_one++;
 				}
+				//value = value / 2; ok
 				value = value >> 1;
 			}
 			System.out.println(count_one);

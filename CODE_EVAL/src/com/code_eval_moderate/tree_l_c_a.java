@@ -3,7 +3,36 @@ package com.code_eval_moderate;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+/*
+Write a program to determine the lowest common ancestor of two nodes in a 
+binary search tree. You may hardcode the following binary search tree in 
+your program: int[] inp = {30, 8, 52, 3, 20, 10, 29}; I used recursive
+to read the input and create the BST.
+    30
+    |
+  ____
+  |   |
+  8   52
+  |
+____
+|   |
+3  20
+    |
+   ____
+  |   |
+  10 29
+*/
+//
+/*INPUT These values represent two nodes within the tree, one per line. 
+8 52
+3 29
+ */
+/*Print to stdout the lowest common ancestor, one per line. Lowest means 
+ * the lowest depth in the tree, not the lowest value. E.g.:
 
+30
+8
+ */
 class TNODE {
 	int value;
 	TNODE left;

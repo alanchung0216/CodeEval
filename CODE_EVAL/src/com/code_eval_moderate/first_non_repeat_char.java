@@ -10,7 +10,14 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-
+/* INPUT
+yellow
+tooth
+*/
+/* OUTPUT Print to stdout the first non-repeated character, one per line.
+ * y
+ * h
+ */
 public class first_non_repeat_char {
 
 	public static void main(String[] args) throws IOException {

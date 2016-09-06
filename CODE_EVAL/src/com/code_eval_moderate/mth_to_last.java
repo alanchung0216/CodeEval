@@ -6,6 +6,16 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/*The integer represents an index in the list (1-based), one per line.
+a b c d 4
+e f g h 2
+ */
+/*Print to stdout the Mth element from the end of the list, 
+ * one per line. If the index is larger than the number of 
+ * elements in the list, ignore that input.
+a
+g
+ */
 public class mth_to_last {
 
 	public static void main(String[] args) throws IOException {

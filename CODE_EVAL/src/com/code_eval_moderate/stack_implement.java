@@ -6,6 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// implement a stack with push and pop
+/*IN
+1 2 3 4
+10 -2 3 4
+ */
+/*Print to stdout every alternate space delimited integer, one per line.
+4 2
+4 -2
+ */
 public class stack_implement {
 	public static void push(List<Integer> ll, Integer i){
 		ll.add(i);

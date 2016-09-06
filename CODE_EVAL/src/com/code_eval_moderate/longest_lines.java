@@ -8,6 +8,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+// find longest 2 lines in descending order
+
+/* IN
+2
+Hello World
+CodeEval
+Quick Fox
+A
+San Francisco
+*/
+
+/* OUT
+San Francisco
+Hello World
+*/
+
 public class longest_lines {
 
 	public static void main(String[] args) throws IOException {

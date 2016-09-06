@@ -6,6 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+//1,1,1,2,2,3,3,4,4
+//2,3,4,5,5
+
 public class unique_element {
 
 	public static void main(String[] args) throws IOException {

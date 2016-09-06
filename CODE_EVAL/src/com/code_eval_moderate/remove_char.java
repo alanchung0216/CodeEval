@@ -10,6 +10,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*IN
+how are you, abc
+hello world, def
+ */
+/*OUT
+how re you
+hllo worl
+ */
+
 // 5/11/16
 public class remove_char {
 	public static void main(String[] args){
